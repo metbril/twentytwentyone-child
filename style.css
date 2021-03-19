@@ -3,12 +3,19 @@
  Theme URI:    https://github.com/metbril/twentytwentyone-child
  Description:  Twenty Twenty One Child Theme
  Author:       Robert van Bregt
- Author URI:   https://robertvanbreg.nl/
+ Author URI:   https://robertvanbregt.nl/
  Template:     twentytwentyone
- Version:      1.0.0
+ Version:      1.0.1
  Tags:         child
  Text Domain:  twentytwentyone-child
  GitHub Theme URI: https://github.com/metbril/twentytwentyone-child
 
 /* =Eigen CSS hier beneden plaatsen
 -------------------------------------------------------------- */
+
+/* Fix those huge headers */
+.singular .entry-title,
+h1.page-title,
+h2.page-title {
+	font-size: var(--heading--font-size-h2);
+}
